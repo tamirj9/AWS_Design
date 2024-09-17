@@ -1,13 +1,12 @@
-# 🏢 Business Licensing Data Analysis for Vancouver City Office
+# 🏢 Data Analysis and Cloud-Based Solution for Business Licensing in Vancouver City Office
 
-As a data analyst for the Vancouver City Office, I undertook a comprehensive project to analyze and optimize the business licensing process for companies in Vancouver. Utilizing datasets for 2023 and 2024 sourced from [OpenData Vancouver](https://opendata.vancouver.ca/explore/dataset/business-licences/export/?disjunctive.status&disjunctive.businesssubtype&refine.businesstype=Information+Communication+Technology), I developed a Data Analytics Platform (DAP) to drive insightful metrics and streamline operations.
+**Project Description:** Optimizing Business Licensing Process for Vancouver City
 
-**Project Overview**
-The primary goal of this project was to:
-- Analyze and optimize the business licensing process in Vancouver.
-- Implement a DAP encompassing descriptive, diagnostic, predictive, and prescriptive metrics to provide valuable insights for decision-making.
+**Project Title:** Data Analysis and Cloud-Based Solution for Business Licensing in Vancouver
 
-**Key Steps in the Project**
+**Objective:** As a data analyst for the Vancouver City Office, I undertook a comprehensive project to analyze and optimize the business licensing process for companies in Vancouver. Utilizing datasets for 2023 and 2024 sourced from [OpenData Vancouver](https://opendata.vancouver.ca/explore/dataset/business-licences/export/?disjunctive.status&disjunctive.businesssubtype&refine.businesstype=Information+Communication+Technology). The primary goal of this project is to analyze and optimize the business licensing process of those companies operating in Vancouver. It will provide a scalable data pipeline using AWS cloud services to process, clean, and analyze licensing data for insights that are actionable and inform the operations of the city. I have implemented a DAP encompassing descriptive, diagnostic, predictive, and prescriptive metrics to provide useful insights for decision-making.
+
+**Methodology**
 1. Data Acquisition and Initial Design:
 - Downloaded business license datasets (2023 and 2024) from the operational data source.
 - Designed the DAP architecture, defining descriptive, diagnostic, predictive, and prescriptive metrics.
@@ -25,11 +24,17 @@ The primary goal of this project was to:
   - Conditional Routing: Ensured that only validated data was processed.
   - Applied aggregation and join components to create a Curated Zone for advanced analytics.
 5. Data Pipeline Design and Implementation:
-- Built an end-to-end data pipeline in AWS Glue for seamless data ingestion, transformation, and storage.
-- Implemented the ETL process to automate the extraction, transformation, and loading of data into structured formats ready for analysis.
+- Implementation of an end-to-end data pipeline in AWS Glue that will allow developers to ingest, transform, and store data efficiently.
+- Utilized ETL to extract, transform, and load information into structured formats ready for analysis.
 6. Data Analysis and Publishing:
 - Leveraged AWS EC2 and AWS Athena to analyze the curated data and derive actionable insights.
 - Developed comprehensive visualizations and reports to present the analysis results, providing a clear overview of business licensing trends and optimization opportunities.
+
+**Deliverables**
+A comprehensive report detailing the methodology, analysis, and recommendations.
+Visualizations and dashboards to clearly present key insights.
+A presentation for stakeholders outlining the findings and proposed optimizations.
+
 
 **Visual Representations**
 
