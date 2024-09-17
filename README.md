@@ -6,6 +6,29 @@
 
 **Objective:** As a data analyst for the Vancouver City Office, I undertook a comprehensive project to analyze and optimize the business licensing process for companies in Vancouver. Utilizing datasets for 2023 and 2024 sourced from [OpenData Vancouver](https://opendata.vancouver.ca/explore/dataset/business-licences/export/?disjunctive.status&disjunctive.businesssubtype&refine.businesstype=Information+Communication+Technology). The primary goal of this project is to analyze and optimize the business licensing process of those companies operating in Vancouver. It will provide a scalable data pipeline using AWS cloud services to process, clean, and analyze licensing data for insights that are actionable and inform the operations of the city. I have implemented a DAP encompassing descriptive, diagnostic, predictive, and prescriptive metrics to provide useful insights for decision-making.
 
+**Dataset:** The dataset that was used for this project gives, in detail, insight into the business license issued within Vancouver and goes to the year 2024. It contains a variety of fields providing insight into the nature of the businesses and their licensing status, among other relevant attributes. Key features of the dataset are as follows:
+- LicenceRSN: Unique identifier for each business license.
+- LicenceNumber: The official license number assigned to the business.
+- LicenceRevisionNumber: The revision number of the license, indicating any updates or changes.
+- BusinessName: The registered name of the business.
+- BusinessTradeName: The trade name under which the business operates, if different from the registered name.
+- Status: The current status of the license (e.g., Issued, Pending, Cancelled).
+- IssuedDate: The date when the license was issued.
+- ExpiredDate: The date when the license will expire.
+- BusinessType: The type or category of the business (e.g., Computer Services, Retail).
+- Unit: The unit number of the business location.
+- Street: The street address of the business.
+- City: The city where the business is located.
+- Province: The province of the business location.
+- Country: The country of the business location.
+- PostalCode: The postal code of the business location.
+- LocalArea: The local area within Vancouver where the business is situated.
+- NumberofEmployees: The number of employees working at the business.
+- FeePaid: The amount of fee paid for the license.
+- ExtractDate: The date when the data was extracted.
+- Geom: Geographical information of the business location.
+- geo_point_2d: Latitude and longitude coordinates of the business location.
+
 **Methodology**
 1. Data Acquisition and Initial Design:
 - Downloaded business license datasets (2023 and 2024) from the operational data source.
